@@ -1,0 +1,10 @@
+{
+	"name": "ShootableMouthDogs",
+	"version_number": "1.0.0",
+	"author": "AgentRev",
+	"description": "Fixes bug that prevented eyeless mouthdogs from being killable/killed with the shotgun. Client-side, no host requirement. Vanilla damage unchanged.",
+	"website_url": "https://github.com/AgentRev/LC-ShootableMouthDogs",
+	"dependencies": [
+		"BepInEx-BepInExPack-5.4.2100"
+	]
+}
