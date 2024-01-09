@@ -18,7 +18,7 @@ public class Plugin : BaseUnityPlugin
 }
 
 [HarmonyPatch(typeof(Physics))]
-public class PhysicsPatch
+public static class PhysicsPatch
 {
     // Filters out NavMeshAgent hits from SphereCastNonAlloc, since they block gun damage don't really serve a purpose for raycast detection.
     [HarmonyPatch(nameof(Physics.SphereCastNonAlloc))]
